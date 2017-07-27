@@ -48,7 +48,7 @@ The current live theme that have this plugin installed is using a customized dow
 The fonts ‘Glober’ and ‘Roboto (Fallback)’ has been added to the customized download of Bootstrap for the theme.
 
 ## Advanced Custom Fields Pro 
-This plugin requires Repeater field type  of the Advanced custom field in order to view create the carousel.
+This plugin requires Repeater field type  of the Advanced custom field in order to create the carousel.
 
 Following Sub Fields of the Repeater type are required:
 
