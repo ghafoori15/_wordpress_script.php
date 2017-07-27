@@ -33,7 +33,7 @@ Video Thumbnail: Wistia gives you the option of creating thumbnails for the your
 ## Plugin Requirements
 The Carousel Plugin requires the following in order to properly work:
 
-## Bootstrap v3
+Bootstrap v3
 Advanced Custom Field Pro ( Repeater Field)
 
 ## Bootstrap
