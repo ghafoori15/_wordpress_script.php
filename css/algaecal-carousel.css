@@ -1,0 +1,98 @@
+/*
+Description: This styesheet contains css to overwrite bootstrap default styles for specific elements. 
+It needs be placed AFTER loading bootstrap's css file.
+*/
+.algaecal-carousel .carousel-inner{
+	width:90%;
+	margin:0 5%;
+}
+.carousel-control-wrapper{
+	
+	position:relative;
+	width:100%;
+	margin-top:30px;
+	overflow:hidden;     
+	float:left;   
+}
+/* Indicators list style */
+.algaecal-carousel .carousel-indicators {
+  overflow: auto;
+  position: static;
+  text-align: left;
+  white-space: nowrap;
+  margin:10px 5%;
+  min-width:800px;
+  float:left;
+}
+
+.carousel-control-wrapper .carousel-indicators li {
+	border:none;
+	border-radius:none;
+	width:100px;
+	height:auto;
+}
+.algaecal-carousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+  width:100px;
+}
+.algaecal-carousel .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+.algaecal-carousel .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+.algaecal-carousel .carousel-outer {
+  position: relative;
+}
+.carousel-control-wrapper .carousel-control.right, .carousel-control-wrapper .carousel-control.left{
+	background:none; 
+}
+.carousel-control-wrapper .carousel-control{
+	width:auto;
+	bottom:80px;
+}
+/*--- Modal Body----*/
+.algaecal-carousel .modal-dialog{
+	width:50%;
+}
+.algaecal-carousel .carousel-caption{
+	padding:0;
+	color:#000000;
+}
+.algaecal-carousel .modal-body img{
+	width:70%;
+	display:block;
+	margin:auto;
+}
+
+/*----- Carousel-----*/
+
+#arrowR{
+    width:20px;
+    height:50px;
+    float:right;
+    cursor:pointer;
+}
+
+
+#arrowL{
+    width:20px;
+    height:50px;
+    float:left;
+    cursor:pointer;
+}
+
+#thumbNav{
+	width:100px;
+    height:100px;
+    margin:5px;
+    float:left;
+    position:relative;
+}
+.carousel-control-wrapper .carousel-control .glyphicon-chevron-right, .carousel-control-wrapper .carousel-control .glyphicon-chevron-left {
+	top:60px;
+	color:#000000;
+}
